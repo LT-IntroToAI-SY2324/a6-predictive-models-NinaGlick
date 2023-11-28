@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 data = pd.read_csv("part1-linear-regression/chirping_data.csv")
 x = data["Temp"]
 y = data["Chirps"]
-
+print(yield)
 # sets the size of the graph
 plt.figure(figsize=(6,4))
 
