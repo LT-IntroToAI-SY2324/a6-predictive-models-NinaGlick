@@ -11,7 +11,7 @@ the rsquared values is .86. this is indicative of a strong correlation between t
 it isn't super accurate, because the predicted and the actual values are not always the same. sometimes they can be off by as much as $3000
 
 3. What does the model predict a 10-year-old car with 89000 miles is worth? What about a car that is 20 years old with 150000 miles?
-the model predicts that a 10 year-old car with 89000 miles will cost $14765.75 and a car that is 20 years old with 15000 miles will cost $14063
+the model predicts that a 10 year-old car with 89000 miles will cost $9238.37 and a car that is 20 years old with 15000 miles will cost $2214.93
 
 4. You may notice that some of your predicted results are negative. This is occurring when the value of age and the mileage of the car are very high. Why do you think this is happening?
 it might mean that the car is worth so little, that te person drviing it is losing money on it. 
