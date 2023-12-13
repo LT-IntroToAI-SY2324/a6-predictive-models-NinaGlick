@@ -14,5 +14,5 @@ the mdel is 88% accurate when the standardscaler is included in the code. it is 
 when looking at the predictions and actual results, the model seemed to to very well. of what was printed in the terminal, nothing was wrong. it's hard to say if there was a pattern, because it is unclear when the model made a mistake.
 
 4. Would a 34 year old Female who makes 56000 a year buy an SUV according to the model? Remember to scale the data before running it through the model.
-the prediction was incorrect. this is likely because the 26-40 age demographic varies a lot on who purchases an SUV. because the perron we tested in the range of ages that are harder to accurately predict, the model wasn't able to accurately guess if she bought an SUV or not
+the prediction was correct. the woman did not buy an suv.
 

@@ -54,9 +54,11 @@ for index in range(len(x_test)):
         actual = "Purchased"
     # print("Predicted Purchased: " + y_pred + " Purchased: " + actual)
     
-print("TEST FOR WRITEUP")
-y_pred=int(model.predict([[34,5600,1 ]]))
 
-print("Predicted Purchased:" ,y_pred ,"Purchased:" , actual)
-print("")
 
+
+print("+_+_+_+")
+my_data=[[34, 5600, 1 ]]
+my_scaled_data= scaler.transform(my_data)
+my_predictions=model.predict(my_scaled_data)
+print(my_predictions)
